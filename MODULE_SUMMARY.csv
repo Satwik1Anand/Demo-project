@@ -1,0 +1,20 @@
+Module,File,Purpose,Complexity,Production Ready,Key Feature,Model,Lines of Code
+1,first_call_single.py,Minimal API call example,Basic,Yes,Dataclass config,claude-sonnet-4-5-2-0250929,~80
+1,conversation_loop.py,Simple chat loop,Basic,Partial,Loop control,claude-sonnet-4-5-2-0250929,~60
+1,pass_instructions_demo.py,System instructions example,Basic,Yes,User-defined instructions,claude-sonnet-4-5-2-0250929,~50
+1,conversation_state.py,Stateless vs stateful demo,Intermediate,Yes,Educational comparison,Variable,~150
+1,enfroce_outpt.py,Output format enforcement,Intermediate,Yes,JSON validation,claude-sonnet-4-5-2-0250929,~120
+1,json_response_demo.py,JSON response parsing,Intermediate,Yes,Schema validation,claude-sonnet-4-5-2-0250929,~100
+2,chatbot.py,Conversational chatbot,Intermediate,Yes,History trimming,claude-v1,~100
+2,test_app.py,Text processing utility,Basic,Partial,Instruction loop,claude-v1,~90
+2,contentReveiwAgent.py,PII detection agent,Advanced,Yes,Safety check,claude-v1,~110
+2,context_aware_context.py,Context personalization,Intermediate,Yes,JSON context embedding,claude-sonnet-4-5-2-0250929,~100
+2,data_check_agent.py,CSV Q&A agent,Advanced,Yes,Multi-encoding support,claude-1,~130
+2,runtime_context_demo.py,Runtime context injection,Intermediate,Yes,Request traceability,claude-sonnet-4-5-2-0250929,~90
+2,taskPlanner.py,Task planning agent,Intermediate,Yes,Multi-turn dialogue,claude-v1,~85
+3,app.py,Streamlit web interface,Intermediate,Yes,Streaming UI,claude-v1,~110
+3,multi_step.py,Dynamic prompt generation,Advanced,Yes,Intent detection,claude-v1,~140
+3,rate_limiting_timeout_demo.py,Exponential backoff retry,Advanced,Yes,Resilience pattern,claude-v1,~120
+3,retry.demo.py,Fixed-delay retry,Basic,Partial,Simple retry loop,claude-v1,~70
+3,streaming_chat.py,Async streaming chat,Advanced,Yes,Real-time streaming,claude-v1,~130
+3,token_optimization.py,Token usage comparison,Intermediate,Yes,Cost analysis,claude-v1,~110
